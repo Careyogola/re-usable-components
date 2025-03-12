@@ -5,7 +5,7 @@ import { IoPersonCircleOutline } from "react-icons/io5"
 const Navbar = () => {
   return (
     <nav className='bg-blue-800 w-full h-16 flex flex-row items-center justify-between px-4'>
-        <a href='#' className='text-white text-3xl font-bold'>UEFA.com</a>
+        <a href='https://uefa.com' className='text-white text-3xl font-bold'>UEFA.com</a>
         <a href='#' className='text-white hover:text-blue-400'>About</a>
         <a href='#' className='text-white hover:text-blue-400'>National associations</a>
         <a href='#' className='text-white hover:text-blue-400'>Running competitions</a>
