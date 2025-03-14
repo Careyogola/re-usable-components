@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa"
 
 const Footer = () => {
   return (
-    <footer className='w-full flex flex-col absolute bottom-0'>
+    <footer className='w-full flex flex-col overflow-y-hidden bottom-0'>
       <div className='bg-blue-950 flex flex-row justify-between text-gray-300 p-8'>
         <div className='grid grid-cols-3'>
           <div className='bg-inherit flex flex-col gap-2'>

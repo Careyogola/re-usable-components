@@ -3,15 +3,17 @@ import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import MainContent from './components/Content'
+import Sidebar from './components/Sidebar'
+import SideBaar from './components/Custom-sidebar'
 
 const App = () => {
   return (
-   <>
-    {/* <Banner /> */}
+   <div>
     <Navbar />
+    {/* <SideBaar /> */}
     <MainContent />
-    {/* <Footer /> */}
-   </>
+    <Footer />
+   </div>
   )
 }
 
